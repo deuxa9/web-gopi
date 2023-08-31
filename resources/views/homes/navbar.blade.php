@@ -1,4 +1,4 @@
-<nav class="desktop-show navbar py-0 fixed-top navbar-expand-lg navbar-light bg-white">
+<nav class="desktop-show navbar py-1 fixed-top navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
         <a class="navbar-brand" href="/"><img class="img-fluid" src="assets/img/logonav.png" alt="Gopi"></a>
         <div class="collapse navbar-collapse" id="navbarNav">
