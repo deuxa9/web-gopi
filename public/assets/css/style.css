@@ -49,9 +49,14 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+@font-face{
+  font-family: 'Urbane-Medium';
+  src: url('../font/Urbane-Medium.woff2');
+}
+
 body {
   margin: 0;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Urbane-Medium';
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -7199,7 +7204,7 @@ a.text-dark:hover, a.text-dark:focus {
     top: 50%;
     left: calc(1.562rem - 5px);
     transform: translateY(-50%);
-    background-color: rgba(247, 181, 0, 0.43);
+    background-color: none !important;
     transition: width 0.3s ease-in; }
     @media (max-width: 991px) {
       .oleez-header .navbar-nav .nav-link:not(.nav-link-btn)::before {
@@ -8495,9 +8500,25 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: -100px;
 }
 
+.about-img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: -55px;
+}
+
+.whatwedo-img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: -55px;
+}
+
 .square-business{
   width: 250px;
   height: 250px;
+}
+
+.pb{
+  padding-bottom: 100px;
 }
 
 .underline-business{
@@ -8526,7 +8547,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .input-container {
   position: relative;
-  margin: 50px auto;
   width: 800;
 }
 
@@ -8731,131 +8751,131 @@ img:not([draggable]), embed, object, video {
 }
 
 .swiper-pagination {
-    position: absolute;
-    text-align: center;
-    -webkit-transition: .3s;
-    transition: .3s;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    z-index: 10
+  position: absolute;
+  text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: 10
 }
 
 .swiper-pagination.swiper-pagination-hidden {
-    opacity: 0
+  opacity: 0
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-    bottom: 10px;
-    left: 0;
-    width: 100%
+  bottom: 10px;
+  left: 0;
+  width: 100%
 }
 
 .swiper-pagination-bullet {
-    width: 8px;
-    height: 8px;
-    display: inline-block;
-    border-radius: 100%;
-    background: #000;
-    opacity: .2
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #000;
+  opacity: .2
 }
 
 button.swiper-pagination-bullet {
-    border: none;
-    margin: 0;
-    padding: 0;
-    box-shadow: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    -webkit-appearance: none;
-    appearance: none
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -webkit-appearance: none;
+  appearance: none
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
-    cursor: pointer
+  cursor: pointer
 }
 
 .swiper-pagination-white .swiper-pagination-bullet {
-    background: #fff
+  background: #fff
 }
 
 .swiper-pagination-bullet-active {
-    opacity: 1;
-    background: #007aff
+  opacity: 1;
+  background: #007aff
 }
 
 .swiper-pagination-white .swiper-pagination-bullet-active {
-    background: #fff
+  background: #fff
 }
 
 .swiper-pagination-black .swiper-pagination-bullet-active {
-    background: #000
+  background: #000
 }
 
 .swiper-container-vertical>.swiper-pagination-bullets {
-    right: 10px;
-    top: 50%;
-    -webkit-transform: translate3d(0, -50%, 0);
-    transform: translate3d(0, -50%, 0)
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0)
 }
 
 .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 5px 0;
-    display: block
+  margin: 5px 0;
+  display: block
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 5px
+  margin: 0 5px
 }
 
 .swiper-pagination-progress {
-    background: rgba(0, 0, 0, .25);
-    position: absolute
+  background: rgba(0, 0, 0, .25);
+  position: absolute
 }
 
 .swiper-pagination-progress .swiper-pagination-progressbar {
-    background: #007aff;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    -webkit-transform-origin: left top;
-    transform-origin: left top
+  background: #007aff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transform-origin: left top;
+  transform-origin: left top
 }
 
 .swiper-container-rtl .swiper-pagination-progress .swiper-pagination-progressbar {
-    -webkit-transform-origin: right top;
-    transform-origin: right top
+  -webkit-transform-origin: right top;
+  transform-origin: right top
 }
 
 .swiper-container-horizontal>.swiper-pagination-progress {
-    width: 100%;
-    height: 4px;
-    left: 0;
-    top: 0
+  width: 100%;
+  height: 4px;
+  left: 0;
+  top: 0
 }
 
 .swiper-container-vertical>.swiper-pagination-progress {
-    width: 4px;
-    height: 100%;
-    left: 0;
-    top: 0
+  width: 4px;
+  height: 100%;
+  left: 0;
+  top: 0
 }
 
 .swiper-pagination-progress.swiper-pagination-white {
-    background: rgba(255, 255, 255, .5)
+  background: rgba(255, 255, 255, .5)
 }
 
 .swiper-pagination-progress.swiper-pagination-white .swiper-pagination-progressbar {
-    background: #fff
+  background: #fff
 }
 
 .swiper-pagination-progress.swiper-pagination-black .swiper-pagination-progressbar {
-    background: #000
+  background: #000
 }
 
 .swiper-container-3d {
@@ -9203,21 +9223,8 @@ button.swiper-pagination-bullet {
   opacity: 1;
 }
 
-.vert-move {
-  -webkit-animation: mover 1s infinite  alternate;
-  animation: mover 1s infinite  alternate;
-}
-.vert-move {
-  -webkit-animation: mover 1s infinite  alternate;
-  animation: mover 1s infinite  alternate;
-}
-@-webkit-keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
-}
-@keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+h1, h2{
+  font-weight: 900;
 }
 
 

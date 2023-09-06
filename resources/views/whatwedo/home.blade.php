@@ -74,7 +74,7 @@
 
     </main>
 
-    <footer id="footer" class="oleez-footer wow fadeInUp">
+    <footer id="footer" class="oleez-footer wow">
         @include('whatwedo.footersection')
     </footer>
     

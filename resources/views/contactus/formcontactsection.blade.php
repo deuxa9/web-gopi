@@ -3,7 +3,7 @@
         <div class="col-md-4">
             <div class="footer-widget-text">
                 <h6 class="fs-5 fw-bold">Address:</h6>
-                <p class="widget-content fw-normal fs-6 text-left">GOODEVA CBD Division, Grand Galaxy CommercialRSK 6 No. 15, <br> Kota Bekasi</p>
+                <p class="widget-content fw-normal fs-6 text-left">GOODEVA CBD Division, Grand Galaxy Commercial RSK 6 No. 15, <br> Kota Bekasi</p>
             </div>
             <div class="footer-widget-text">
                 <h6 class="fs-5 fw-bold">Email:</h6>
@@ -12,10 +12,10 @@
             <div class="footer-widget-text">
                 <h6 class="fs-5 fw-bold">Follow Us</h6>
                 <p class="widget-content">
-                    <i class="bi bi-youtube fs-4 mr-2"></i>
-                    <i class="bi bi-twitter fs-4 mr-2"></i>
-                    <i class="bi bi-instagram fs-4 mr-2"></i>
-                    <i class="bi bi-facebook fs-4 mr-2"></i>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-youtube fs-4 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-twitter fs-4 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-instagram fs-4 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-facebook fs-4 mx-2"></i></a>
                 </p>
             </div>
         </div>
@@ -27,7 +27,7 @@
             @endif
             <form action="{{ route('send.email') }}" method="POST" enctype="multipart/form-data">
                 @csrf
-                <div class="input-container mb-3 mt-0">
+                <div class="input-container mt-0">
                     <input type="text" id="name" name="name" required>
                     <label for="name" class="label">Your Name</label>
                     <div class="underline"></div>
@@ -35,20 +35,20 @@
                         <span class="text-danger"> {{ $message }} </span>
                     @enderror
                 </div>   
-                <div class="input-container mb-3">
+                <div class="input-container mt-5">
                     <input type="text" id="email" name="email" required>
-                    <label for="email" class="label">Email</label>
+                    <label for="email" class="label">Email Address</label>
                     <div class="underline"></div>
                     @error('email')
                         <span class="text-danger"> {{ $message }} </span>
                     @enderror
                 </div>   
-                <div class="input-container mb-3">
+                <div class="input-container mt-5">
                     <input type="text" id="phone" name="phone" required>
                     <label for="phone" class="label">Phone</label>
                     <div class="underline"></div>
                 </div>   
-                <div class="input-container mb-4">
+                <div class="input-container mt-5 mb-4">
                     <input type="text" id="messages" name="messages" required>
                     <label for="messages" class="label">Messages</label>
                     <div class="underline"></div>
@@ -73,7 +73,7 @@
             @endif
             <form action="{{ route('send.email') }}" method="POST" enctype="multipart/form-data">
                 @csrf
-                <div class="input-container mb-3 mt-0">
+                <div class="input-container mt-3">
                     <input type="text" id="name" name="name" required>
                     <label for="name" class="label">Your Name</label>
                     <div class="underline"></div>
@@ -81,20 +81,20 @@
                         <span class="text-danger"> {{ $message }} </span>
                     @enderror
                 </div>   
-                <div class="input-container mb-3">
+                <div class="input-container mt-4">
                     <input type="text" id="email" name="email" required>
-                    <label for="email" class="label">Email</label>
+                    <label for="email" class="label">Email Address</label>
                     <div class="underline"></div>
                     @error('email')
                         <span class="text-danger"> {{ $message }} </span>
                     @enderror
                 </div>   
-                <div class="input-container mb-3">
+                <div class="input-container mt-4">
                     <input type="text" id="phone" name="phone" required>
                     <label for="phone" class="label">Phone</label>
                     <div class="underline"></div>
                 </div>   
-                <div class="input-container mb-4">
+                <div class="input-container mt-4">
                     <input type="text" id="messages" name="messages" required>
                     <label for="messages" class="label">Messages</label>
                     <div class="underline"></div>
@@ -111,7 +111,7 @@
         <div class="col-md-4 mt-5">
             <div class="footer-widget-text">
                 <h6 class="fs-5 fw-bold">Address:</h6>
-                <p class="widget-content fw-normal fs-6 text-left">GOODEVA CBD Division, Grand Galaxy CommercialRSK 6 No. 15, <br> Kota Bekasi</p>
+                <p class="widget-content fw-normal fs-6 text-left">GOODEVA CBD Division, Grand Galaxy Commercial RSK 6 No. 15, <br> Kota Bekasi</p>
             </div>
             <div class="footer-widget-text">
                 <h6 class="fs-5 fw-bold">Email:</h6>
@@ -120,10 +120,10 @@
             <div class="footer-widget-text">
                 <h6 class="fs-5 fw-bold">Follow Us</h6>
                 <p class="widget-content">
-                    <i class="bi bi-youtube fs-4 mr-2"></i>
-                    <i class="bi bi-twitter fs-4 mr-2"></i>
-                    <i class="bi bi-instagram fs-4 mr-2"></i>
-                    <i class="bi bi-facebook fs-4 mr-2"></i>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-youtube fs-4 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-twitter fs-4 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-instagram fs-4 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-facebook fs-4 mx-2"></i></a>
                 </p>
             </div>
         </div>

@@ -1,6 +1,6 @@
 <div class="container text-center text-black desktop-show">
     <div class="mb-5">
-        <h1 class="fw-bold fs-1 text-dark">Business Strategy</h1>
+        <h1 class="fw-bold fs-1">Business Strategy</h1>
     </div>
 
     <div class="row justify-content-center">

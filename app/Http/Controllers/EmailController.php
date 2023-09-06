@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactMail;
+use App\Models\Email;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
@@ -14,6 +15,7 @@ class EmailController extends Controller
     }
 
     public function sendEmail(Request $request){
+        
         $details = [
             'name' => $request->name,
             'email' => $request->email,
@@ -21,6 +23,13 @@ class EmailController extends Controller
             'messages' => $request->messages,
         ];
 
+        $emailData = new Email();
+        $emailData->name = $details['name'];
+        $emailData->email = $details['email'];
+        $emailData->phone = $details['phone'];
+        $emailData->messages = $details['messages'];
+        $emailData->save();
+        
         Mail::to('hamidganteng667@gmail.com')->send(new ContactMail($details));
         return back()->with('message_sent', 'Your message has been sent successfully!');
     }

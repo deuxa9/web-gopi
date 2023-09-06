@@ -4,13 +4,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link fw-bold active" aria-current="page" href="/">Home</a>
+              <a class="nav-link fw-bold" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="/about-us">About Us</a>
+              <a class="nav-link fw-normal" href="/about-us">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bold" href="/what-we-do">What We Do</a>
+              <a class="nav-link fw-normal" href="/what-we-do">What We Do</a>
             </li>
           </ul>
         </div>
@@ -29,13 +29,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active fw-bold" aria-current="page" href="/">Home</a>
+            <a class="nav-link fw-bold" aria-current="page" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="/about-us">About Us</a>
+            <a class="nav-link fw-normal" href="/about-us">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bold" href="/what-we-do">What We Do</a>
+            <a class="nav-link fw-normal" href="/what-we-do">What We Do</a>
           </li>
           <li class="nav-item fw-bold">
             <a class="btn btn-info rounded-0 d-grid gap-2" href="/contact-us">Contact Us!</a>

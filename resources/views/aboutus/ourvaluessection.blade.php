@@ -41,33 +41,33 @@
     </div>
 
     <div class="row justify-content-center">
-      <div class="col-md-6">
-        <img src="assets/img/our1.svg" class="card-img-top" alt="...">
-        <h3 class="position-absolute top-50 start-50 translate-middle fw-bold text-white">
+      <div class="col-md-6 text-start">
+        <img src="assets/img/our-mobile1.svg" class="card-img-top" alt="...">
+        <h3 class="position-absolute top-50 start-0 translate-middle-y fw-medium text-white mx-4">
           Persistent
         </h3>
-        <p class="position-absolute bottom-0 start-50 translate-middle-x fw-normal text-center text-white">Continue to strive to provide the best results more than expected</p>
+        <p class="position-absolute bottom-0 start-0 fw-normal text-white mx-4">Continue to strive to provide the best results more than expected</p>
       </div>
-      <div class="col-md-6 mt-4">
-        <img src="assets/img/our2.svg" class="card-img-top" alt="...">
-        <h3 class="position-absolute top-50 start-50 translate-middle fw-bold text-white">
+      <div class="col-md-6 mt-4 text-start">
+        <img src="assets/img/our-mobile2.svg" class="card-img-top" alt="...">
+        <h3 class="position-absolute top-50 start-0 translate-middle-y fw-medium text-white mx-4">
           Optimistic
         </h3>
-        <p class="position-absolute bottom-0 start-50 translate-middle-x fw-normal text-center text-white">Confident in doing something and have an unyielding spirit</p>
+        <p class="position-absolute bottom-0 start-0 fw-normal text-white mx-4">Confident in doing something and have an unyielding spirit</p>
       </div>
       <div class="col-md-6 mt-4">
-        <img src="assets/img/our3.svg" class="card-img-top" alt="...">
-        <h3 class="position-absolute top-50 start-50 translate-middle fw-bold text-white">
+        <img src="assets/img/our-mobile3.svg" class="card-img-top" alt="...">
+        <h3 class="position-absolute top-50 start-0 translate-middle-y fw-medium text-white mx-4">
           Perfect
         </h3>
-        <p class="position-absolute bottom-0 start-50 translate-middle-x fw-normal text-center text-white">Provide maximum output that can meet the standards of consumers</p>
+        <p class="position-absolute bottom-0 start-0 fw-normal text-white mx-4">Provide maximum output that can meet the standards of consumers</p>
       </div>
       <div class="col-md-6 mt-4 mb-5">
-        <img src="assets/img/our4.svg" class="card-img-top" alt="...">
-        <h3 class="position-absolute top-50 start-50 translate-middle fw-bold text-white">
+        <img src="assets/img/our-mobile4.svg" class="card-img-top" alt="...">
+        <h3 class="position-absolute top-50 start-0 translate-middle-y fw-medium text-white mx-4">
           Innovation
         </h3>
-        <p class="position-absolute bottom-0 start-50 translate-middle-x fw-normal text-center text-white">Able to adapt to every change and create new things</p>
+        <p class="position-absolute bottom-0 start-0 fw-normal text-white mx-4">Able to adapt to every change and create new things</p>
       </div>
     </div>
 </div>
