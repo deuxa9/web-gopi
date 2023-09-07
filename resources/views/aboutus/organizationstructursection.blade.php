@@ -1,5 +1,5 @@
 <div class="container desktop-show">
-    <h1 class="fw-bold text-center text-dark mb-5">Organization Structure</h1>
+    <h1 class="fw-bold text-center text-black mb-5">Organization Structure</h1>
     <!-- Swiper -->
 	<div class="swiper-container two">
 		<div class="swiper-wrapper">
@@ -74,7 +74,7 @@
 </div>
 
 <div class="container mobile-show">
-    <h1 class="fw-bold fs-1 text-center text-dark py-3 mb-5">Organization Structure</h1>
+    <h1 class="fw-bold fs-1 text-center text-black py-3 mb-5">Organization Structure</h1>
     <!-- Swiper -->
 	<div class="swiper-container two">
 		<div class="swiper-wrapper">
