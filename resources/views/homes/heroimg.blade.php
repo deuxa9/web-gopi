@@ -6,7 +6,7 @@
             <video src="assets/img/FN2.mp4" autoplay muted loop></video>
             <div class="position-relative">
                 <a href="#joinwith-us">
-                    <img class="position-absolute bottom-0 start-50  mb-5" src="assets/img/arrow-bottom.svg" alt="">
+                    <img class="position-absolute bottom-0 start-50 mb-5" src="assets/img/arrow-bottom.svg" alt="">
                 </a>
             </div>
         </div>

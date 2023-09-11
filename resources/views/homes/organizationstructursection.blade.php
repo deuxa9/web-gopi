@@ -65,7 +65,7 @@
 				<div class="d-flex justify-content-center align-items-center">
 					<img src="assets/img/carouselimg.svg" alt="">
 				</div>
-				<h3 class="fw-bold fs-5 mt-2 text-center"></h3>
+				<h3 class="fw-bold fs-5 mt-2 text-center">Agustinus Putra</h3>
 				<p class="text-center fs-6">CEO Goodeva Technology</p>
 			</div>
 			<div class="slider-card">

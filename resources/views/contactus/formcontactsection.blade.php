@@ -57,7 +57,7 @@
                     @enderror
                 </div>   
 
-                <button class="btn btn-black px-3 py-2 rounded-0 mt-0">Submit</button>
+                <button type="submit" class="btn btn-black px-3 py-2 rounded-0 mt-0">Submit</button>
             </form>
         </div>
     </div>
@@ -104,14 +104,14 @@
                 </div>   
 
                 <div class="d-grid gap-2">
-                    <button class="btn btn-black px-3 py-2 rounded-0 mt-0">Submit</button>
+                    <button type="submit" class="btn btn-black px-3 py-2 rounded-0 mt-0">Submit</button>
                 </div>
             </form>
         </div>
         <div class="col-md-4 mt-5">
             <div class="footer-widget-text">
                 <h3 class="fs-4 fw-bold">Address:</h3>
-                <p class="widget-content fw-normal fs-6 text-left">GOODEVA CBD Division, Grand Galaxy Commercial RSK 6 No. 15, <br> Kota Bekasi</p>
+                <p class="widget-content fw-normal fs-6 text-left">GOODEVA CBD Division,<br> Grand Galaxy <br> Commercial RSK 6 No. 15, <br> Kota Bekasi</p>
             </div>
             <div class="footer-widget-text">
                 <h3 class="fs-4 fw-bold">Email:</h3>
@@ -120,10 +120,10 @@
             <div class="footer-widget-text">
                 <h3 class="fs-4 fw-bold">Follow Us</h3>
                 <p class="widget-content">
-                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-youtube fs-2 mx-2"></i></a>
-                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-twitter fs-2 mx-2"></i></a>
-                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-instagram fs-2 mx-2"></i></a>
-                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-facebook fs-2 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-youtube fs-4 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-twitter fs-4 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-instagram fs-4 mx-2"></i></a>
+                    <a class="text-decoration-none text-black" href=""> <i class="bi bi-facebook fs-4 mx-2"></i></a>
                 </p>
             </div>
         </div>

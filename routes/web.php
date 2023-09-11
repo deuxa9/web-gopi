@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EmailController;
 use App\Http\Controllers\EmailDBController;
+use App\Http\Controllers\EmailHistoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,3 +38,5 @@ Route::get('/what-we-do', function () {
 
 Route::get('/contact-us', [EmailController::class, 'contact']);
 Route::post('/contact-us', [EmailController::class, 'sendEmail'])->name('send.email');
+Route::get('/emailhistory', [EmailHistoryController::class, 'index'])->name('email.history');
+Route::get('/exportemailhistorypdf', [EmailHistoryController::class, 'exportemailhistorypdf'])->name('exportemailhistorypdf');
