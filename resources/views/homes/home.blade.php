@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/vendors/slick-carousel/slick.css">
     <link rel="stylesheet" href="./assets/vendors/slick-carousel/slick-theme.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <script src="assets/vendors/jquery/jquery.min.js"></script>
     <script src="assets/js/loader.js"></script>
 
@@ -61,30 +62,30 @@
             @include('homes.overviewsection')  
         </section>
 
-        <section id="business-strategy" class="desktop-show oleez-landing-section oleez-landing-section-projects">
+        <section id="business-strategy" class="mt-5 desktop-show">
             @include('homes.businessstrategysection')  
         </section>
 
-        <section id="business-strategy" class="mobile-show">
+        <section id="business-strategy" class="mt-4 mobile-show">
             @include('homes.businessstrategysection')  
         </section>
 
-        <section id="business-sector" class="desktop-show oleez-landing-section oleez-landing-section-projects">
+        <section id="business-sector" class="mt-5 desktop-show">
             @include('homes.businesssectorsection')  
         </section>
         <section id="business-sector" class="mobile-show mt-3">
             @include('homes.businesssectorsection')  
         </section>
 
-        <section id="organization-structur" class="desktop-show oleez-landing-section oleez-landing-section-projects">
+        <section id="organization-structur" class="desktop-show mt-5">
             @include('homes.organizationstructursection')
         </section>
 
-        <section id="organization-structur" class="mobile-show mt-3">
+        <section id="organization-structur" class="mobile-show mt-2">
             @include('homes.organizationstructursection')
         </section>
 
-        <section id="joinwith-us" class="oleez-landing-section-projects">
+        <section id="joinwith-us">
             @include('homes.joinwithussection')
         </section>
     </main>
@@ -93,40 +94,6 @@
         @include('homes.footersection')
     </footer>
 
-    <!-- Modals -->
-    <!-- Off canvas social menu -->
-    <nav id="offCanvasMenu" class="off-canvas-menu">
-        <button type="button" class="close" aria-label="Close" data-dismiss="offCanvasMenu">
-            <span aria-hidden="true">&times;</span>
-        </button>
-        <ul class="oleez-social-menu">
-            <li>
-                <a href="#!" class="oleez-social-menu-link">Facebook</a>
-            </li>
-            <li>
-                <a href="#!" class="oleez-social-menu-link">Instagram</a>
-            </li>
-            <li>
-                <a href="#!" class="oleez-social-menu-link">Behance</a>
-            </li>
-            <li>
-                <a href="#!" class="oleez-social-menu-link">Dribbble</a>
-            </li>
-            <li>
-                <a href="#!" class="oleez-social-menu-link">Email</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- Full screen search box -->
-    <div id="searchModal" class="search-modal">
-        <button type="button" class="close" aria-label="Close" data-dismiss="searchModal">
-            <span aria-hidden="true">&times;</span>
-        </button>
-        <form action="index.html" method="get" class="oleez-overlay-search-form">
-            <label for="search" class="sr-only">Search</label>
-            <input type="search" class="oleez-overlay-search-input" id="search" name="search" placeholder="Search here">
-        </form>
-    </div>
     <section>
         @include('js.gopimain')
     </section>

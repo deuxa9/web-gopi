@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Global Pristya ID</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logonav-mobile.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.css">
     <link rel="stylesheet" href="./assets/vendors/animate.css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/vendors/slick-carousel/slick.css">
     <link rel="stylesheet" href="./assets/vendors/slick-carousel/slick-theme.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -57,7 +59,7 @@
             @include('aboutus.aboutussection')  
         </section>
 
-        <section id="visi-misi" class="desktop-show oleez-landing-section oleez-landing-section-projects">
+        <section id="visi-misi" class="desktop-show mt-1">
             @include('aboutus.visimisisection')  
         </section>
 
@@ -65,15 +67,15 @@
             @include('aboutus.visimisisection')  
         </section>
 
-        <section id="our-values" class="desktop-show oleez-landing-section oleez-landing-section-projects bg-dark">
+        <section id="our-values" class="desktop-show mt-5 bg-dark">
             @include('aboutus.ourvaluessection')  
         </section>
 
-        <section id="our-values" class="mobile-show py-3 bg-dark">
+        <section id="our-values" class="mobile-show bg-dark">
             @include('aboutus.ourvaluessection')  
         </section>
 
-        <section id="organisation-structur" class="desktop-show oleez-landing-section oleez-landing-section-projects">
+        <section id="organisation-structur" class="desktop-show mt-5">
             @include('aboutus.organizationstructursection')  
         </section>
 

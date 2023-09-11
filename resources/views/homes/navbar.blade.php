@@ -1,4 +1,4 @@
-<nav class="desktop-show navbar py-2 fixed-top navbar-expand-lg navbar-light bg-white">
+<nav class="desktop-show navbar shadow-sm py-2 fixed-top navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
         <a class="navbar-brand" href="/"><img class="img-fluid" src="assets/img/logonav.png" alt="Gopi"></a>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -20,7 +20,7 @@
     </div>
 </nav>
 
-<nav class="mobile-show navbar py-1 fixed-top navbar-expand-lg navbar-light bg-white">
+<nav class="mobile-show navbar shadow-sm py-3 fixed-top navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
       <a href="/"><img src="assets/img/logonav-mobile.svg" alt="Gopi"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

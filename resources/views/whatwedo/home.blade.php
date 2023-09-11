@@ -56,7 +56,7 @@
             @include('whatwedo.whatwedosection')  
         </section>
 
-        <section id="business-sector" class="desktop-show oleez-landing-section oleez-landing-section-projects">
+        <section id="business-sector" class="desktop-show mt-5">
             @include('whatwedo.businessunitsection')  
         </section>
 
@@ -64,11 +64,11 @@
             @include('whatwedo.businessunitsection')  
         </section>
 
-        <section id="organization-structur" class="desktop-show bg-dark oleez-landing-section oleez-landing-section-projects">
+        <section id="organization-structur" class="desktop-show bg-dark mt-5">
             @include('whatwedo.partner&clientsection')
         </section>
 
-        <section id="organization-structur" class="mobile-show bg-dark py-5">
+        <section id="organization-structur" class="mobile-show bg-dark pt-3">
             @include('whatwedo.partner&clientsection')
         </section>
 

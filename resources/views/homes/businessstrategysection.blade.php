@@ -111,7 +111,7 @@
 
 <div class="container text-center text-black mobile-show">
     <div>
-        <h1 class="fw-bold fs-1">Business Strategy</h1>
+        <h1 class="fw-bold fs-4">Business Strategy</h1>
     </div>
 
     <img class="img-fluid" src="assets/img/business-strategy.svg" alt="">

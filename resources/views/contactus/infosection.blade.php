@@ -15,7 +15,7 @@
     <div class="d-flex">
         <div class="bg-white ms-3 text-black">
             <div class="my-3 me-md-3 my-md-3">
-              <h5 class="mb-5">
+              <h5 class="mb-3">
                 <a class="text-decoration-none text-black fw-bold fs-4" cla href="/">Home</a> / <a class="text-decoration-none text-dark fw-light" href="/contact-us">Contact Us</a>
               </h5>
               <h1 class="fw-bold fs-1">Join With Us!</h1>
