@@ -1,9 +1,9 @@
 <div class="card text-bg-dark rounded-0 position-relative desktop-show">
     <img src="assets/img/joinwithus.svg" class="card-img" alt="joinwithus">
     <div class="card-img-overlay">
-      <h1 class="card-title mt-5 ms-5 pt-3 fw-bold fs-1">Create Good <br> Business With Us</h1>
-      <p class="card-text ms-5 text-primary fw-500 fs-4">Grow Together To Achive Goals!</p>
-      <a href="/contact-us" type="button" class="btn btn-black opacity-75 text-white ms-5 rounded-0 position-absolute bottom-0">Join With Us !<i class="bi bi-caret-right ms-5"></i></a>
+      <h1 class="card-title mt-5 pt-3 fw-bold fs-1 start-text">Create Good <br> Business With Us</h1>
+      <p class="card-text text-primary fw-500 fs-4 start-text">Grow Together To Achive Goals!</p>
+      <a href="/contact-us" type="button" class="btn btn-black opacity-75 text-white ms-5 rounded-0 position-absolute bottom-0 start">Join With Us !<i class="bi bi-caret-right ms-5"></i></a>
     </div>
 </div>
 

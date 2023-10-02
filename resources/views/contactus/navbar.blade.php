@@ -7,7 +7,19 @@
               <a class="nav-link fw-normal" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-normal" href="/about-us">About Us</a>
+              <div class="dropdown">
+                <a href="/about-us" class="btn dropbtn">About Us
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content rounded">
+                  <a href="https://odeva.co.id/" class="position-relative rounded">Odeva</a>
+                  <a href="https://www.goodeva.co.id/" class="position-relative rounded">Goodeva</a>
+                  <a href="https://www.gagoo.id/" class="position-relative rounded">Gagoo</a>
+                  <a href="https://digideva.id/" class="position-relative rounded">Digideva</a>
+                  <a href="https://situkang.com/" class="position-relative rounded">SiTukang</a>
+                  <a href="#" class="position-relative rounded">Anywell</a>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-normal" href="/what-we-do">What We Do</a>

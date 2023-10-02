@@ -57,7 +57,7 @@
                     @enderror
                 </div>   
 
-                <button type="submit" class="btn btn-black px-3 py-2 rounded-0 mt-0">Submit</button>
+                <button type="submit" class="btn btn-black px-3 py-2 rounded-0 mt-0 mb-3">Submit</button>
             </form>
         </div>
     </div>

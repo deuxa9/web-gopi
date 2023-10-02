@@ -1,8 +1,8 @@
 <div class="container desktop-show">
     <div class="footer-content">
-        <div class="row">
+        <div class="row justify-content-start">
             <div class="col-md-5 position-relative">
-                <img class="img-fluid px-4 w-100 position-absolute top-50 start-0 translate-middle-y" src="assets/img/logofooter.svg" alt="gopi" class="footer-logo">
+                <img class="img-fluid pr-5 position-absolute top-50 start-0 translate-middle-y" src="assets/img/logofooter.svg" alt="gopi" class="footer-logo">
             </div>
             <div class="col-md-7">
                 <div class="row">
